@@ -8,23 +8,23 @@ Use the function 'stego_or_clean' in 'detect_stego.ipynb' file to analyze an ima
 Machine Learning Classifiers:
 -----------
 In this project, five different classifiers were trained and tested using 70,000 images:
-    - Support Vector Machines (SVMs): https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-    - K-Nearest Neighbors: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
-    - Random Forests: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
-    - Multilayer Perceptron: https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
-    - Naive-Bayes: https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
+        -   Support Vector Machines (SVMs): https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+        -   K-Nearest Neighbors: https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html
+        -   Random Forests: https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html
+        -   Multilayer Perceptron: https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html
+        -   Naive-Bayes: https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html
 
 Features Vector Extraction:
 -----------
 The features vector is 8 statistical measurements extracted from the histograms of the images:
-  - Kurtosis
-  - Skewness
-  - Standard Deviation (Std)
-  - Range
-  - Median
-  - Geometric Mean
-  - Hjorth Mobility
-  - Hjorth Complexity
+      - Kurtosis
+      - Skewness
+      - Standard Deviation (Std)
+      - Range
+      - Median
+      - Geometric Mean
+      - Hjorth Mobility
+      - Hjorth Complexity
 
 Dataset:
 -----------
