@@ -5,6 +5,8 @@ What's this project about ?
 steganalysis-ml is a steganalysis tool for detecting LSB Steganography in monochromatic still images. Different machine learning classifiers were used to classify images in two classes: 'stego' and 'clean'.
 Use the function 'stego_or_clean' in 'detect_stego.ipynb' file to analyze an image as an input.
 
+![0_nCbBS1_pq9N5nDh4](https://user-images.githubusercontent.com/70814339/144764562-a8652667-46ea-47a8-9ab1-b62173f09707.png)
+
 Machine Learning Classifiers:
 -----------
 In this project, five different classifiers were trained and tested using 70,000 images:
@@ -17,14 +19,14 @@ In this project, five different classifiers were trained and tested using 70,000
 Features Vector Extraction:
 -----------
 The features vector is 8 statistical measurements extracted from the histograms of the images:
-- Kurtosis
-- Skewness
-- Standard Deviation (Std)
-- Range
-- Median
-- Geometric Mean
-- Hjorth Mobility
-- Hjorth Complexity
+- [Kurtosis](https://fr.wikipedia.org/wiki/Kurtosis#:~:text=En%20th%C3%A9orie%20des%20probabilit%C3%A9s%20et,la%20distribution%20d'une%20variable)
+- [Skewness](https://en.wikipedia.org/wiki/Skewness)
+- [Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation) (Std)
+- [Range](https://en.wikipedia.org/wiki/Range_(statistics))
+- [Median](https://en.wikipedia.org/wiki/Median)
+- [Geometric Mean](https://en.wikipedia.org/wiki/Geometric_mean)
+- [Hjorth Mobility](https://en.wikipedia.org/wiki/Hjorth_parameters#Hjorth_Mobility)
+- [Hjorth Complexity](https://en.wikipedia.org/wiki/Hjorth_parameters#Hjorth_Complexity)
 
 Dataset:
 -----------
@@ -51,7 +53,10 @@ Naive-Bayes      |   89.84                   |   85.1
 Future Work:
 -----------
 - This project will be soon extended to a Web Application for LSB Detection using all the five classifiers above.
-- Due to the limited dataset, the classifiers don't perform well on high-resolution images as well as steganography techniques other than LSB Steganography.
+- Due to the limited dataset, the classifiers don't perform well on high-resolution images as well as steganography techniques other than LSB Steganography. So the model needs a larger and more variant dataset to have wider use cases.
+
+P.S:
+  This is a Specific Steganalysis (LSB Steganography) and not a Blind Steganalysis.
 
 
 
