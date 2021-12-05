@@ -17,14 +17,14 @@ In this project, five different classifiers were trained and tested using 70,000
 Features Vector Extraction:
 -----------
 The features vector is 8 statistical measurements extracted from the histograms of the images:
-      - Kurtosis
-      - Skewness
-      - Standard Deviation (Std)
-      - Range
-      - Median
-      - Geometric Mean
-      - Hjorth Mobility
-      - Hjorth Complexity
+- Kurtosis
+- Skewness
+- Standard Deviation (Std)
+- Range
+- Median
+- Geometric Mean
+- Hjorth Mobility
+- Hjorth Complexity
 
 Dataset:
 -----------
