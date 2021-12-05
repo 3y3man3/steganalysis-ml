@@ -21,7 +21,7 @@ Features Vector Extraction:
 The features vector is 8 statistical measurements extracted from the histograms of the images:
 - [Kurtosis](https://fr.wikipedia.org/wiki/Kurtosis#:~:text=En%20th%C3%A9orie%20des%20probabilit%C3%A9s%20et,la%20distribution%20d'une%20variable)
 - [Skewness](https://en.wikipedia.org/wiki/Skewness)
-- [Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation) (Std)
+- [Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation)
 - [Range](https://en.wikipedia.org/wiki/Range_(statistics))
 - [Median](https://en.wikipedia.org/wiki/Median)
 - [Geometric Mean](https://en.wikipedia.org/wiki/Geometric_mean)
