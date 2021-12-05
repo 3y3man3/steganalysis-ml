@@ -40,6 +40,7 @@ These features are Kurtosis, Skewness, Standard Deviation, Range, Median, Geomet
 The steganographic function embeds five types of payloads, from 0.1 to 0.5.
 
 You can find more details in the following link:
+
 https://ieee-dataport.org/open-access/steganalysis-still-images-lsb-steganography-features-dataset
 
 Training and Testing the Classifiers:
