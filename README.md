@@ -31,8 +31,11 @@ The features vector is 8 statistical measurements extracted from the histograms 
 Dataset:
 -----------
 This is a dataset consisting of 8 features extracted from 70,000 monochromatic still images adapted from the Genome Project Standford's database, that are labeled in two classes: LSB steganography (1) and without LSB Steganography (0).
+
 These features are Kurtosis, Skewness, Standard Deviation, Range, Median, Geometric Mean, Hjorth Mobility, and Hjorth Complexity, all extracted from the histograms of the still images, including random spatial transformations.
+
 The steganographic function embeds five types of payloads, from 0.1 to 0.5.
+
 You can find more details in the following link:
 https://ieee-dataport.org/open-access/steganalysis-still-images-lsb-steganography-features-dataset
 
