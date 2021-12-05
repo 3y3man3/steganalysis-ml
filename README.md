@@ -49,11 +49,11 @@ The five classifiers were trained with 56,000 images and tested with 14,000 imag
 
 Classifier     |   Train Set                  |   Test Set
 :-      |   :-                      |    :-
-SVMs       |   90.94           |   90.3
-KNN       |   94.37         |   92.94
-Random Forest*       |   98.4                 |   93.21
-Multilayer Perceptron       |   92.6                  |   92.11
-Naive-Bayes      |   89.84                   |   85.1
+SVMs       |   90.94 %           |   90.3 %
+KNN       |   94.37 %         |   92.94 %
+Random Forest*       |   98.4 %                 |   93.21 %
+Multilayer Perceptron       |   92.6 %                  |   92.11 %
+Naive-Bayes      |   89.84 %                   |   85.1%
 
 *: As we see, Random Forest Classifier has the best performance on the used dataset.
 
