@@ -2,7 +2,7 @@
 
 What's this project about ?
 -----------
-steganalysis-ml is a steganalysis tool for detecting LSB Steganography in monochromatic still images. Different machine learning classifiers were used to classify images in two classes: 'stego' and 'clean'.
+steganalysis-ml is a steganalysis tool for detecting LSB Steganography in JPEG monochromatic images. Different machine learning classifiers were used to classify images in two classes: 'stego' and 'clean'.
 
 Use the function 'stego_or_clean' in 'detect_stego.ipynb' file to analyze an image as an input.
 
@@ -64,9 +64,3 @@ Future Work:
 
 P.S:
   This is a Specific Steganalysis (LSB Steganography) and not a Blind Steganalysis.
-
-
-
-
-
-
